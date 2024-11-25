@@ -1,0 +1,15 @@
+POST http://localhost:3000/login-google
+Content-Type: application/json
+
+{
+    "credential": ""
+}
+
+###
+
+POST http://localhost:3000/login-google-token
+Content-Type: application/json
+
+{
+    "token": ""
+}
